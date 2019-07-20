@@ -19,7 +19,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/topics")
     })
     .finally(function () {
         console.log("request complete");
-    })
+    });
 
 function iterateThrough(topics) {
     topics.forEach(element => {
